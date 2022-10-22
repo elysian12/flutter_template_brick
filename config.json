@@ -16,5 +16,7 @@
         {
             "name":"ImageHelper"
         }
-    ]
+    ],
+    "home":"home",
+    "router":"router"
 }
