@@ -1,0 +1,20 @@
+{
+    "colors":"colors",
+    "textStyle":"text_style",
+    "theme":"theme",
+    "helper":"helper",
+    "helpers":[
+        {
+            "name":"Helper"
+        },
+        {
+            "name":"IconHelper"
+        },
+        {
+            "name":"AssetHelper"
+        },
+        {
+            "name":"ImageHelper"
+        }
+    ]
+}
