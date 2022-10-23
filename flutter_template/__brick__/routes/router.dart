@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
+import '../modules/modules.dart';
+
 
 class My{{router.pascalCase()}} {
 
