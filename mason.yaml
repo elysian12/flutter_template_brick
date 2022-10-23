@@ -5,3 +5,5 @@ bricks:
   # Run `mason make hello` to try it out.
   flutter_template:
     path: ./flutter_template/
+  github_action:
+    path: ./github_action/
