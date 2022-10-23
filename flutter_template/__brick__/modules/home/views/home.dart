@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 
-class {{home.pascalCase()}}View extends StatelessWidget {
+class {{home.pascalCase()}}Screen extends StatelessWidget {
 
    static const String routeName = "/{{home.lowerCase()}}";
 
-  const {{home.pascalCase()}}View  ({Key? key}) : super(key: key);
+  const {{home.pascalCase()}}Screen  ({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

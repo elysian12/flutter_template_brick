@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
@@ -25,8 +26,8 @@ class My{{router.pascalCase()}} {
     final args = settings.arguments;
 
      switch (settings.name) {
-       case {{home.pascalCase()}}View.routeName:
-        return MaterialPageRoute(builder: (_) => const {{home.pascalCase()}}View());
+       case {{home.pascalCase()}}Screen.routeName:
+        return MaterialPageRoute(builder: (_) => const {{home.pascalCase()}}Screen());
 
         default:
         return _errorRoute();
