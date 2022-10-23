@@ -21,11 +21,12 @@ class My{{router.pascalCase()}} {
   }
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
+    log(settings.name!);
     final args = settings.arguments;
 
      switch (settings.name) {
        case {{home.pascalCase()}}View.routeName:
-        return MaterialPageRoute(builder: (_) => {{home.pascalCase()}}View());
+        return MaterialPageRoute(builder: (_) => const {{home.pascalCase()}}View());
 
         default:
         return _errorRoute();
